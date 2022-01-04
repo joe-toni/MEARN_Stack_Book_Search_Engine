@@ -1,7 +1,7 @@
 // this will handle the authentication of the user
 const jwt = require('jsonwebtoken');
 
-const secret = 'BrandonCarinaJoseKarinaMiguel'; // this is the secret key to sign the token
+const secret = 'AMostTerribleSeceret'; // this is the secret key to sign the token
 const expiration = '2h'; // set expiration to 2 hours
 
 module.exports = {
